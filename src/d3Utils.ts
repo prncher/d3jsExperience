@@ -112,19 +112,19 @@ export const renderPie = (colors: string[],
             .attr("width", '800px')
             .attr("height", '500px')
 
-        var ordScale = d3.scaleOrdinal<string>().range(colors);
-        var pie = d3.pie<GenreData>().value(d => d.studentCount);
-        var arc = svg.selectAll("arc").data(pie(data)).enter();
+        const ordScale = d3.scaleOrdinal<string>().range(colors);
+        const pie = d3.pie<GenreData>().value(d => d.studentCount);
+        const arc = svg.selectAll("arc").data(pie(data)).enter();
 
         const radius = 250
-        var path = d3.arc<d3.PieArcDatum<GenreData>>()
+        const path = d3.arc<d3.PieArcDatum<GenreData>>()
             .outerRadius(radius)
             .innerRadius(0);
 
         arc.append("path").attr("d", path)
             .attr("fill", d => ordScale(d.data.genre));
 
-        var label = d3.arc<d3.PieArcDatum<GenreData>>()
+        const label = d3.arc<d3.PieArcDatum<GenreData>>()
             .outerRadius(radius)
             .innerRadius(0);
 
