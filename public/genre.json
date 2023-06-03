@@ -5,26 +5,26 @@
     },
     {
         "genre": "Action",
-        "studentCount": 48
+        "studentCount": 8
     },
     {
         "genre": "Romance",
-        "studentCount": 65
+        "studentCount": 15
     },
     {
         "genre": "Drama",
-        "studentCount": 14
+        "studentCount": 4
     },
     {
         "genre": "Horror",
-        "studentCount": 41
+        "studentCount": 15
     },
     {
         "genre": "Foreign",
-        "studentCount": 28
+        "studentCount": 8
     },
     {
         "genre": "Science fiction",
-        "studentCount": 58
+        "studentCount": 5
     }
 ]
