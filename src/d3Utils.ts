@@ -135,7 +135,6 @@ export const renderPie = (colors: string[],
             })
             .text(d => d.data.genre)
             .style('text-anchor', 'start')
-            .style('alignment-baseline', 'start')
 
         arc.append("text")
             .attr("transform", d => "translate(" + label.centroid(d) + ")")
