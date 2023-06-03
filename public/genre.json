@@ -1,0 +1,30 @@
+[
+    {
+        "genre": "Comedy",
+        "studentCount": 85
+    },
+    {
+        "genre": "Action",
+        "studentCount": 48
+    },
+    {
+        "genre": "Romance",
+        "studentCount": 65
+    },
+    {
+        "genre": "Drama",
+        "studentCount": 14
+    },
+    {
+        "genre": "Horror",
+        "studentCount": 41
+    },
+    {
+        "genre": "Foreign",
+        "studentCount": 28
+    },
+    {
+        "genre": "Science fiction",
+        "studentCount": 58
+    }
+]
